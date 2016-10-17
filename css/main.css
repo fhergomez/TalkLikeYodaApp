@@ -1,0 +1,33 @@
+h1 {
+    font-family: Helvetica, Arial;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    background-color: #eeeeee;
+}
+
+label {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+button {
+    width: 400px;
+    background-color: bisque;
+    font-weight: bold;
+}
+
+#translator {
+    border 1px solid black;
+    padding: 10px;
+    background-color: #00aa00;
+    width: 400px;
+}
+
+#result {
+    margin-top: 20px;
+    border: 1px solid black;
+    background-color: white;
+    height: 50px;
+}
