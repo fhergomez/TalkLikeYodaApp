@@ -21,8 +21,10 @@ h1 {
 }
 
 textarea {
-    max-width: 400px;
+    max-width: 394px;
     max-height: 80px;
+    min-width: 394px;
+    min-height: 80px;
     background-color: #eeeeee;
 }
 
