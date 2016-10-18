@@ -1,5 +1,10 @@
+* {
+    margin: auto;
+}
 h1 {
+    margin: 50px;
     font-family: Helvetica, Arial;
+    text-align: center;
 }
 
 textarea {
