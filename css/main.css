@@ -1,10 +1,18 @@
 * {
     margin: auto;
 }
+
+#mainContent {
+    background: url("../images/yoda.png") no-repeat;
+    background-position: center;
+    background-size: 500px 500px;
+    max-height: 600px;
+}
+
 h1 {
-    margin: 50px;
     font-family: Helvetica, Arial;
     text-align: center;
+    margin-top: 25px;
 }
 
 textarea {
@@ -28,11 +36,17 @@ button {
     padding: 10px;
     background-color: #00aa00;
     width: 400px;
+    margin-top: 37px;
 }
 
 #result {
-    margin-top: 20px;
-    border: 1px solid black;
-    background-color: white;
-    height: 50px;
+    border: 1px solid #277201;
+    background-color: #277201;
+    height: 100px;
+    width: 250px;
+    border-radius: 57px;
+    margin-top: 295px;
+    color: #ffffff;
+    padding: 50px;
+    font-size: 20px;
 }

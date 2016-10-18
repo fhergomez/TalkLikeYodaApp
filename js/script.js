@@ -18,7 +18,7 @@ $(document).ready(function () {
             },
             success: function (result) {
                 console.log(result);
-                $('#result').html(result);
+                $('#result').html(result.toUpperCase());
             }
         });
     }
