@@ -4,9 +4,10 @@ $(document).ready(function () {
     console.log("jQuery is ready");
 
     window.onload = function () {
-        $('#btnTranslate').on('click', translateText);
+        $('#btnTranslate').on('click', translateText); 
+        $('#result').html('What would you like me to translate?'.toUpperCase());
     };
-    $('#result').html('What would you like me to translate?'.toUpperCase());
+    
 
     function translateText() {
         var textToTranslate = $('#textToTranslate').val();
