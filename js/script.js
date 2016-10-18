@@ -6,6 +6,7 @@ $(document).ready(function () {
     window.onload = function () {
         $('#btnTranslate').on('click', translateText);
     };
+    $('#result').html('What would you like me to translate?'.toUpperCase());
 
     function translateText() {
         var textToTranslate = $('#textToTranslate').val();
